@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure>
+<type>grammar</type>
+<production><left>S</left><right>AZ</right></production>
+<production><left>S</left><right>NW</right></production>
+<production><left>S</left><right>NV</right></production>
+<production><left>S</left><right>NT</right></production>
+<production><left>Z</left><right>XY</right></production>
+<production><left>Y</left><right>XX</right></production>
+<production><left>W</left><right>AY</right></production>
+<production><left>V</left><right>NU</right></production>
+<production><left>U</left><right>AX</right></production>
+<production><left>T</left><right>NR</right></production>
+<production><left>R</left><right>NA</right></production>
+<production><left>A</left><right>F</right></production>
+<production><left>N</left><right>P</right></production>
+<production><left>N</left><right>M</right></production>
+<production><left>X</left><right>P</right></production>
+<production><left>X</left><right>M</right></production>
+<production><left>X</left><right>F</right></production>
+</structure>

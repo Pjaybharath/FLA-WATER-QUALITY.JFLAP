@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure>
+<type>grammar</type>
+<production><left>S</left><right>PSB</right></production>
+<production><left>S</left><right>PB</right></production>
+<production><left>B</left><right>M</right></production>
+</structure>

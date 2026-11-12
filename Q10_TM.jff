@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure>
+<type>turing</type>
+<tapes>1</tapes>
+<automaton>
+<block id="0" name="q0"><tag>Machine0</tag><x>80.0</x><y>100.0</y><initial/></block>
+<block id="1" name="q1"><tag>Machine1</tag><x>230.0</x><y>100.0</y></block>
+<block id="2" name="q2"><tag>Machine2</tag><x>380.0</x><y>100.0</y></block>
+<block id="3" name="q3"><tag>Machine3</tag><x>530.0</x><y>100.0</y></block>
+<block id="4" name="q4"><tag>Machine4</tag><x>80.0</x><y>250.0</y></block>
+<block id="5" name="q5"><tag>Machine5</tag><x>230.0</x><y>250.0</y><final/></block>
+<transition><from>0</from><to>1</to><read>P</read><write>X</write><move>R</move></transition>
+<transition><from>0</from><to>4</to><read>Y</read><write>Y</write><move>R</move></transition>
+<transition><from>1</from><to>1</to><read>P</read><write>P</write><move>R</move></transition>
+<transition><from>1</from><to>1</to><read>Y</read><write>Y</write><move>R</move></transition>
+<transition><from>1</from><to>2</to><read>M</read><write>Y</write><move>R</move></transition>
+<transition><from>2</from><to>2</to><read>M</read><write>M</write><move>R</move></transition>
+<transition><from>2</from><to>2</to><read>Z</read><write>Z</write><move>R</move></transition>
+<transition><from>2</from><to>3</to><read>F</read><write>Z</write><move>L</move></transition>
+<transition><from>3</from><to>3</to><read>P</read><write>P</write><move>L</move></transition>
+<transition><from>3</from><to>3</to><read>M</read><write>M</write><move>L</move></transition>
+<transition><from>3</from><to>3</to><read>Y</read><write>Y</write><move>L</move></transition>
+<transition><from>3</from><to>3</to><read>Z</read><write>Z</write><move>L</move></transition>
+<transition><from>3</from><to>0</to><read>X</read><write>X</write><move>R</move></transition>
+<transition><from>4</from><to>4</to><read>Y</read><write>Y</write><move>R</move></transition>
+<transition><from>4</from><to>4</to><read>Z</read><write>Z</write><move>R</move></transition>
+<transition><from>4</from><to>5</to><read/><write/><move>S</move></transition>
+</automaton>
+</structure>

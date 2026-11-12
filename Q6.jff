@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure>
+<type>grammar</type>
+<production><left>S</left><right>FXXX</right></production>
+<production><left>S</left><right>NFXX</right></production>
+<production><left>S</left><right>NNFX</right></production>
+<production><left>S</left><right>NNNF</right></production>
+<production><left>N</left><right>P</right></production>
+<production><left>N</left><right>M</right></production>
+<production><left>X</left><right>P</right></production>
+<production><left>X</left><right>M</right></production>
+<production><left>X</left><right>F</right></production>
+</structure>
